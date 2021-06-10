@@ -1,7 +1,7 @@
 # intro.js-vue
 
 A Vue.js wrapper to use the [Intro.js](https://introjs.com/) solution.
-[See the module on NPM](https://www.npmjs.com/package/intro-js-vue).
+[See the module on NPM](https://www.npmjs.com/package/intro-js-vue). 
 
 ## Install
 
