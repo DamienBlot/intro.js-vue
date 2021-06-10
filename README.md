@@ -45,7 +45,7 @@ exemple of implementation :
         steps: [
           {
             title: "Welcome",
-            element: document.querySelector("h1Class"),
+            element: document.querySelector(".h1Class"),
             intro: "Etape 1",
           },
         ],
@@ -54,7 +54,7 @@ exemple of implementation :
           hints: [
             {
               hint: "First hint",
-              element: document.querySelector("h1Class"),
+              element: document.querySelector(".h1Class"),
               hintPosition: "bottom-middle",
             },
           ],
