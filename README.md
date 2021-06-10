@@ -1,6 +1,6 @@
 # intro.js-vue
 
-vue.js wrapper to use intro.js solution
+Vue.js wrapper to use intro.js solution
 
 ## Vue.js components use
 
