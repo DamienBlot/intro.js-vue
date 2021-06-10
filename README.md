@@ -32,7 +32,7 @@ Both `Steps` and `Hints` components currently display buttons that receive a pro
 <script>
   import { Steps, Hints } from "intro-js-vue";
   export default {
-    name: "Test",
+    name: "Demo",
     components: {
       Steps,
       Hints,
