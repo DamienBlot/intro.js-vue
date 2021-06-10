@@ -1,6 +1,7 @@
 # intro.js-vue
 
-A Vue.js wrapper to use the Intro.js solution
+A Vue.js wrapper to use the [Intro.js](https://introjs.com/) solution.
+[See the module on NPM](https://www.npmjs.com/package/intro-js-vue).
 
 ## Install
 
@@ -43,7 +44,7 @@ Both `Steps` and `Hints` components currently display buttons that receive a pro
       };
     },
     mounted() {
-      (this.steps = {
+      this.steps = {
         steps: [
           {
             title: "Welcome",
@@ -51,16 +52,17 @@ Both `Steps` and `Hints` components currently display buttons that receive a pro
             intro: "Etape 1",
           },
         ],
-      }),
-        (this.hints = {
-          hints: [
-            {
-              hint: "First hint",
-              element: document.querySelector("img"),
-              hintPosition: "bottom-middle",
-            },
-          ],
-        });
+      };
+      
+      this.hints = {
+        hints: [
+          {
+            hint: "First hint",
+            element: document.querySelector("img"),
+            hintPosition: "bottom-middle",
+          },
+        ],
+      };
     },
   };
 </script>
