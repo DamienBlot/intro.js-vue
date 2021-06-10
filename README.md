@@ -15,6 +15,8 @@ npm install intro-js-vue
 </script>
 ```
 
+## Note
+
 Both `Steps` and `Hints` components currently display buttons that receive a prop "options", which are your steps or your hints to give to Intro.js as a JSON object.
 
 ## Implementation example
