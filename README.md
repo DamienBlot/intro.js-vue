@@ -2,7 +2,7 @@
 
 vue.js wrapper to use intro.js solution
 
-## two components
+## Vue.js components use
 
 ```bash
 npm install intro.js-vue
