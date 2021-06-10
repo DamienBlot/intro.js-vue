@@ -22,7 +22,10 @@ Both `Steps` and `Hints` components currently display buttons that receive a pro
 <template>
   <Steps :options="steps" />
   <Hints :options="hints" />
-  <h1 classs="h1Class">Test</h1>
+  <p>
+    Intro.js logo
+    <img src="https://introjs.com/img/social.png" alt="intro.js logo" width="300" />
+  </p>
 </template>
 
 <script>
@@ -44,7 +47,7 @@ Both `Steps` and `Hints` components currently display buttons that receive a pro
         steps: [
           {
             title: "Welcome",
-            element: document.querySelector(".h1Class"),
+            element: document.querySelector("p"),
             intro: "Etape 1",
           },
         ],
@@ -53,7 +56,7 @@ Both `Steps` and `Hints` components currently display buttons that receive a pro
           hints: [
             {
               hint: "First hint",
-              element: document.querySelector(".h1Class"),
+              element: document.querySelector("img"),
               hintPosition: "bottom-middle",
             },
           ],
