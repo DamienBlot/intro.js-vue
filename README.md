@@ -1,23 +1,22 @@
 # intro.js-vue
 
-Vue.js wrapper to use intro.js solution
+A Vue.js wrapper to use the Intro.js solution
 
-## Vue.js components use
+## Install
 
 ```bash
-npm install intro.js-vue
+npm install intro-js-vue
 ```
 
 ```vue
 <script>
-  import { Steps, Hints } from 'intro.js-vue';
+  import { Steps, Hints } from 'intro-js-vue';
 </script>
 ```
 
-Both components are buttons that allow you to give "options" to your
-intro.js steps or hints.
+Both `Steps` and `Hints` components currently display buttons that receive a prop "options", which are your steps or your hints to give to Intro.js as a JSON object.
 
-exemple of implementation :
+## Implementation example
 
 ```vue
 <template>
